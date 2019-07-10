@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <title>faq_en</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!--[if lt IE 10]>
+              <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+        <div class="wrapper page-faq">
+            <div class="section clearfix section-faq">
+                <div class="title">
+                    <div class="container" style="position:relative;">
+                        <h1><img src="images/icon-faq.png">FAQ</h1>
+                        <div class="lang-box">
+                            <a href="faq_en.html" class="active">En</a>
+                            <a href="faq_cn.html">中文</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="bread"><a href='index.html'>HOME</a> > FAQ</div>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="page_top" onclick="toTop(id)"><b>Steps and Gait</b> <span class="arrow-right"></span></a></h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h3>1、How to count steps and monitor gait?</h3>
+                                    <p>Please bind and connect to smart insoles on UNIT- FIT app, and wear smart insoles in your daily activity. When connected, the statistics in smart insoles will automatically sync to the APP.</p>
+                                    <h3>2、How to differentiate walking and running?</h3>
+                                    <p>Smart insoles can differentiate walking and running states according to your sports data and record corresponding sports information like steps and etc. The distinction between running and walking states has been tested
+                                        in previous experiments, and the current error is less than 5%. Later, we will continuously optimize related algorithms to improve the accuracy based on sports data.</p>
+                                    <h3>3、What to do if steps, distance and active time data are inaccurate?</h3>
+                                    <p>Please confirm the current smart insoles are connected with the app. The app will show real-time statistical information once get connected, and please wait for the previous information to sync. You can check the synchronization
+                                        progress on the app. Please send us your feedback if the data are frequently inaccurate.</p>
+                                    <h3>4、What’s BMI?</h3>
+                                    <p>BMI, Body Mass Index, is a measurement obtained by dividing a person’s weight by the square of the person’s height, and is a current international standard commonly used to categorize a person as underweight, normal
+                                        weight, overweight, or obese.</p>
+                                    <ul>
+                                        <li>Reference of an adult’s BMI:</li>
+                                        <li>Underweight: ＜18.5</li>
+                                        <li>Normal weight: 18.5-24.99</li>
+                                        <li>Overweight: 25-28</li>
+                                        <li>Obese: 28-32</li>
+                                        <li>Over obesity: ＞32</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="page_middle" onclick="toTop(id)"><b>Running</b> <span class="arrow-right"></span></a></h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <h3>1、Do you have to turn GPS on to record running?</h3>
+                                    <ul>
+                                        <li>Yes.</li>
+                                        <li>Please wear smart insoles when running. Soon we will launch a new system to analyze personal sports data through intelligent machine learning, which only needs to connect with the smart insoles to get distance record
+                                            without GPS. Its accuracy is close to GPS in circumstances like indoor running. </li>
+                                    </ul>
+                                    <h3>2、Will smart insoles disconnection affect running data? What functions will be limited?</h3>
+                                    <ul>
+                                        <li>Only the function of stride frequency record will be affected.</li>
+                                        <li>There is no stride frequency information when smart insoles are disconnected. When smart insoles are disconnected during running, stride frequency data will be incorrect.</li>
+                                    </ul>
+                                    <h3>3、What’s fatigue warning?</h3>
+                                    <ul>
+                                        <li>We provide scientific and customized sports analysis and results prompt according to everyone’s sports data record. Our vision is to help people avoid injury from over exercise and training, particularly from those
+                                            having excessive risks such as long distance running, and wish more and more people pay attention to scientific exercise.</li>
+                                        <li>Fatigue warning is an alpha version in the experimental stage. The result is only for reference. We value your feedback.</li>
+                                    </ul>
+                                    <h3>4、What’s injury warning?</h3>
+                                    <p>Please refer to question 3.</p>
+                                    <h3>5、What’s the difference between fatigue and injury?</h3>
+                                    <ul>
+                                        <li>Fatigue reflects the current motion state and is related to the amount of daily exercise.</li>
+                                        <li>Injury is the risk grade that may occur if keep doing exercise. It’s related to the sports results of previous period.</li>
+                                    </ul>
+                                    <h3>6、What’s the meaning of stop running advice?</h3>
+                                    <ul>
+                                        <li>Please refer to question 3.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="page_bottom" onclick="toTop(id)"><b>Smart insoles</b> <span class="arrow-right"></span></a></h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <h3>1、Why smart insoles need to bind with the UNI-FIT app?</h3>
+                                    <ul>
+                                        <li>Smart insoles are personal devices, please do not lend to others. The data collected during use are personal information of the corresponding account of the bounded devices.</li>
+                                        <li>Please bind with the UNI-FIT app before use. If you use a different account to login, the app will clear all data in the device to ensure data security.</li>
+                                        <li>Please remove your smart insoles from the UNI-FIT app if you won’t use it anymore and make sure your device is connected during remove to avoid data loss.</li>
+                                    </ul>
+                                    <h3>2、How to remove the device from the UNI-FIT app?</h3>
+                                    <p>Click “Devices”- “More” - “Remove the device”</p>
+                                    <h3>3、What’s real-time gait?</h3>
+                                    <ul>
+                                        <li>Real-time gait is the device’s sensing result of every step movement, including foot area sensing and impact force level sensing.</li>
+                                        <li>There is a slight delay between the real-time gait displaying on the phone and the actual movement.</li>
+                                    </ul>
+                                    <h3>4、Basic parameters of Smart Insoles</h3>
+                                    <ul>
+                                        <li>Model: SIS-S01</li>
+                                        <li>Sensor: Softceptor<sup>®</sup> Soft Pressure Sensor</li>
+                                        <li>Size: 37/38/39/40/41/42/43/44</li>
+                                        <li>Materials: PU+TPU+EVA+Fabric</li>
+                                        <li>Waterproof Rate: IP53</li>
+                                        <li>Data Transmission: BLE</li>
+                                        <li>Operating System: iOS 8.0 or above; Android 4.4 or above</li>
+                                        <li>Battery: Rechargeable Polymer Li-ion Battery</li>
+                                        <li>Charging: Via USB</li>
+                                        <li>Battery Endurance: 72H</li>
+                                        <li>Product Standard: GB/T 15107-2013</li>
+                                        <li>Product Certification: SRRC</li>
+                                        <li>Origin: China</li>
+                                        <li>Product Grade: Qualified</li>
+                                    </ul>
+                                    <h3>5、Safety Instructions</h3>
+                                    <ul>
+                                        <li>Please charging with the original USB charging cable.</li>
+                                        <li>The output voltage of adapter must be 5V DC, output current 500mA. Please do not exceed this voltage value.</li>
+                                        <li>Please do not disassemble, tailor, fold or refit the product and its accessories yourself.</li>
+                                        <li>Please do not soak the insoles in liquid (e.g. water, alcohol, oil, etc.)</li>
+                                        <li>This product has built-in battery, please avoid fire and severe impact.</li>
+                                        <li>Please observe the disposal regulations of electronics and accessories and kindly support recycling.</li>
+                                    </ul>
+                                    <h3>6、Care Instructions</h3>
+                                    <ul>
+                                        <li>Please use cloth or wet soft brush to clean the surface when it’s dirty.</li>
+                                        <li>Please let it dry naturally if it’s wet, do not use hair dryer or other tools to dry it.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-faq text-left">
+                    <div class="container">
+                        <div class="col-md-6">
+                            <a href="index.html" class="a__unstyle"><img src="images/icon-arrow-left.png">HOME</a>
+                        </div>
+                        <div class="col-md-6 text-right faq-ercode">
+                            <div class="download-img"><img src="images/ios_code.jpg"> <a href="http://www.unifitapp.com/download/ios" target="_blank"><span class="down-icon ic-ios"></span>IOS</a></div>
+                            <div class="download-img"><img src="images/android_code.jpg"> <a href="http://www.unifitapp.com/download/android"><span class="down-icon ic-android"></span>Android</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container clearfix">
+                        <div class="col-md-6"><a href="http://www.miitbeian.gov.cn" class="beian">Copyright©2016 AdvanPro All Rights Reserved<br><p class="footer-en">Zhuhai Advanpro Technology Co.,Ltd.</p></div>
+                <div class="col-md-6 text-right"><span><a href="http://advanpro.hk"><img src="images/logo-footer.png">Advanpro</a>&nbsp;&nbsp;<a href="http://advanpro.hk/?page_id=100">Contact Us</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
