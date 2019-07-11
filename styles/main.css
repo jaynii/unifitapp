@@ -270,10 +270,11 @@ p {
     margin: 0 0 10px;
 }
 
-.text-right {
+
+/* .text-right {
     text-align: right;
     float: left;
-}
+} */
 
 .footer-copyright a img {
     margin-right: .5rem;
@@ -514,7 +515,7 @@ strong {
 
 .page-faq .panel-default>.panel-heading+.panel-collapse>.panel-body h3 {
     color: #4a4a4a;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 
 .h1,
@@ -530,7 +531,7 @@ h3 {
 .page-faq .panel-default>.panel-heading+.panel-collapse>.panel-body p,
 .page-faq .panel-default>.panel-heading+.panel-collapse>.panel-body ul {
     color: #9b9b9b;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     line-height: 2.4rem;
 }
 
@@ -784,6 +785,9 @@ th {
     .top-banner .download-list {
         text-align: center;
     }
+    /* .section {
+        height: 720px;
+    } */
     .section1 {
         margin-top: -13%;
         background-image: url(../images/section1-bg-m.png);
@@ -807,14 +811,16 @@ th {
         display: none;
     }
     .section .img-app {
-        position: relative;
+        position: absolute;
         display: inline-block;
-        left: auto;
-        top: 20px;
+        left: 80px;
+        top: 111px;
     }
-    /* .section .col-md-6 {
-        text-align: center;
-    } */
+    .section .col-md-6 {
+        height: 10%;
+        padding: 0;
+        /* float: left; */
+    }
     .section1 .col-md-6:nth-child(2) {
         height: 572px;
     }
@@ -890,7 +896,39 @@ th {
         font-weight: 400;
         font-size: 1.5rem;
     }
-    .footer-faq {
+    /* .footer-faq {
+        display: none;
+    } */
+    .footer-copyright {
+        margin-top: 0;
+        background: #efefef;
+        line-height: 30px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .img-sence {
+        display: none;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .footer-faq a {
+        text-align: center;
+        clear: both;
+        display: block;
+        position: absolute;
+        bottom: 50px;
+        margin: 0 auto;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .bg-container {
+        background: url(../images/bg-container.jpg) no-repeat;
+        background-size: cover;
+    }
+    .page-faq .footer,
+    .page-faq .top-btn-back {
         display: none;
     }
 }
@@ -952,7 +990,8 @@ th {
     .page-insole .insole-other-intro .min-table {
         display: block
     }
-    .footer-faq {
+    .page-faq .footer,
+    .page-faq .top-btn-back {
         display: none;
     }
 }
